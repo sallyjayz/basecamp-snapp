@@ -1133,6 +1133,8 @@ const strkAbi = [
 
 export const LAST_CONNECTED_TIME_LOCALSTORAGE_KEY = "lastConnectedTime";
 
+export const CONTRACT_NAME = "CounterContract";
+
 export {
   devnetStrkClassHash,
   universalStrkAddress,

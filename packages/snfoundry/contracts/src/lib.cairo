@@ -1,1 +1,2 @@
-pub mod CounterContract;
+pub mod counter;
+pub mod utils;
