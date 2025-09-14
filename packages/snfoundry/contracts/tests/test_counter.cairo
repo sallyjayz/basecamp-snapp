@@ -146,7 +146,7 @@ fn test_reset_counter_insufficient_balance() {
 }
 
 #[test]
-#[should_panic(expected: "Contract is not allowed to speed enough STRK")]
+#[should_panic(expected: "Contract is not allowed to spend enough STRK")]
 fn test_reset_counter_insufficient_allowance() {
     let init_value: u32 = 8;
     let dispatcher = deploy_counter(init_value);
